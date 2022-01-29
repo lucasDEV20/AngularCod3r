@@ -1,0 +1,44 @@
+
+<mat-card>
+    <mat-card-title>
+        <i class="material-icons">
+            storefront
+        </i>
+        Novo Produto
+    </mat-card-title>
+    <br>
+    <form>
+        <mat-form-field appearance="fill">
+            <mat-label>Escreva o nome do produto </mat-label>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name"
+                name="name">
+
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Preço do produto </mat-label>
+            <input matInput  type="number" 
+            class="right-align" placeholder="0"
+                [(ngModel)]="product.price"
+                name="price">
+            <span matPrefix>R$&nbsp;</span>
+            
+        </mat-form-field>
+
+    </form>
+    <button mat-raised-button (click)="creatProduct()" color="primary">
+        <i class="material-icons">
+            save
+        </i>
+        <br>
+        Salvar
+    </button>
+
+
+    <button mat-raised-button mat-elevation-z4 (click)="cancel()">
+        <i class="material-icons">
+            cancel
+        </i>
+        <br>
+        Cancelar
+    </button>
+</mat-card>

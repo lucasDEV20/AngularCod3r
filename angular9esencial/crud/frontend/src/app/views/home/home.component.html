@@ -1,0 +1,50 @@
+<mat-card class= "home wellcome mat-elevation-z3" > 
+    <!--titulo-->
+    <mat-card-title class = "title">
+        Bem vindo 
+    </mat-card-title>
+    <!--subtitulo-->
+    <mat-card-subtitle class = "subtitle">
+        Sistema para exempleficar a construção de um cadastro em Angular
+    </mat-card-subtitle>
+
+    <button routerLink="/products" mat-raised-button (click) ="navigateToProductCreate()" color= "primary"></button>
+
+</mat-card>
+
+<br>
+<mat-card class= " home products mat-elevation-z3"> 
+    <!--titulo-->
+    <mat-card-title class = "title">
+        Produtos
+    </mat-card-title>
+    <!--subtitulo-->
+    <mat-card-subtitle class = "subtitle">
+        Cadastre ou visualize productos ja cadastrados
+    </mat-card-subtitle>
+    <button routerLink="/products" mat-raised-button (click) ="navigateToProductCreate()" > <i class="material-icons">
+        add_shopping_cart
+    </i></button>
+    <button mat-raised-button routerLink="/products" ><i class="material-icons ">
+        visibility
+    </i></button>
+</mat-card>
+<br>
+<mat-card class= " home clients mat-elevation-z3"> 
+    <!--titulo-->
+    <mat-card-title class = "title">
+        Clientes
+    </mat-card-title>
+    <!--subtitulo-->
+    <mat-card-subtitle class = "subtitle">
+        Cadastre ou visualize clientes ja cadastrados 
+    </mat-card-subtitle>
+    <button routerLink="/clients" mat-raised-button (click) ="navigateToClientCreate()" ><i class="material-icons ">
+        person_add
+    </i></button>
+    <button mat-raised-button routerLink="/client" ><i class="material-icons ">
+        visibility
+    </i></button>
+    
+</mat-card>
+

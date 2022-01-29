@@ -1,0 +1,48 @@
+<mat-card > 
+    <mat-card-title >
+        <i class="material-icons ">
+            person_add_alt
+        </i>
+        Comfirmar exclusão do Cliente
+    </mat-card-title>
+    <br>
+    <form>
+        <mat-form-field appearance="outline">
+            <mat-label>Escreva o nome do cliente </mat-label>
+            <input matInput placeholder="Nome"[value]="client.name" name = "name" disabled>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Escreva a descrisao do cliente</mat-label>
+            <input matInput placeholder="Descrição" [value]="client.description" name="description" disabled>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Escreva sua data de nascimento</mat-label>
+            <input matInput type="number" placeholder="Data de nascimento" [value]="client.dateOld" name="dateOld" disabled>
+        </mat-form-field>
+       
+
+        <mat-form-field appearance="outline">
+            <mat-label>Escreva seu Genero</mat-label>
+            <input matInput type="text" placeholder="Genero" [value]="client.gender" name="gender" disabled>
+            
+        </mat-form-field>
+        
+        
+    </form>
+    <button mat-raised-button (click) ="deleteClient()" color= "warn">
+        <i class="material-icons">
+            save
+        </i>
+        <br>
+        Excluir
+    </button>
+    
+    
+    <button mat-raised-button  (click) ="cancel()">
+        <i class="material-icons">
+            cancel
+        </i>
+        <br>
+        Cancelar
+    </button>
+</mat-card>

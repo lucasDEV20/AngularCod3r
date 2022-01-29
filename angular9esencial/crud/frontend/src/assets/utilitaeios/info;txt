@@ -1,0 +1,66 @@
+ng generate component 
+
+ng g c 
+
+comandos acima geram novos componentes
+
+para criar diretivas novas diretivas
+
+ng c d 
+
+para criar services 
+
+ng generate service
+
+ng g s
+
+ng g pipe 
+
+cria seu pipe customizado
+
+https://pt.stackoverflow.com/questions/422491/aplicar-m%C3%A1scara-em-uma-coluna-de-tabela-html-com-angular
+
+metodo de ciclo de vida OnInit (ciclo de vida)
+https://www.ti-enxame.com/pt/angular/diferenca-entre-construtor-e-ngoninit/824013850/
+
+declarnado o nome no title dole mustache 
+envolve o valor da variavel com duas chaves, de tal forma que ele substitue pelo valor interpolado na variavel
+
+https://tableless.com.br/templates-client-side-com-mustache-js/
+link de apoio
+
+http://www.macoratti.net/18/06/ang_diret1.htm
+link para entender melhor as diretivas 
+
+https://dev.to/felipedsc/observables-como-funcionam-15eb
+Observablo na pratica 
+
+Schematics
+
+https://material.angular.io/guide/schematics
+
+
+Datepicker
+
+https://material.angular.io/components/datepicker/overview
+
+Angular Date Pipe & formatting dates in Angular with examples
+
+https://www.angularjswiki.com/angular/angular-date-pipe-formatting-date-times-in-angular-with-examples/
+
+DatePipe
+
+https://angular.io/api/common/DatePipe
+
+mateial icons 
+
+https://fonts.google.com/icons?selected=Material+Icons&icon.query=view
+
+dysplay
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
+
+
+
+PARA CAMPOS COM MOEDA BRASILEIRA (PARAMETRO)
+currency : 'BRL'

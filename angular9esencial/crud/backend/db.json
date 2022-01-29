@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC preta",
+      "price": 5555
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 4,
+      "name": "Iphone 13+",
+      "price": 10000
+    },
+    {
+      "name": "tv led 50",
+      "price": 12000,
+      "id": 6
+    }
+  ],
+  "client": [
+    {
+      "id": 1,
+      "name": "Lucas Araújo da Silva",
+      "description": "eu sou um teste oi",
+      "dateOld": 121212,
+      "gender": "masculino"
+    },
+    {
+      "id": 3,
+      "name": "Salmonela da Silva Lopes",
+      "description": "eu danço lambada ",
+      "dateOld": 121212,
+      "gender": "masculino"
+    },
+    {
+      "name": "Lucas Araújo",
+      "description": "eu sou um teste oi",
+      "dateOld": 222222,
+      "gender": "masculino",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+Form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color:#e35e6b;
+    color:#fff;
+}
+
+.cardColor{
+    background-color:rgb(219, 117, 130);
+    color:#fff;
+}
+
+mat-card-title{
+    border-radius:  35px;
+    color:#fff;
+    border-color: #000000;
+    background-color: #b33a3a;
+    width: 11rem;
+    height: 28px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+ .right-align {
+    text-align: right;
+  }
+  
+  input.right-align::-webkit-outer-spin-button,
+  input.right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.right-align {
+    -moz-appearance: textfield;
+  }

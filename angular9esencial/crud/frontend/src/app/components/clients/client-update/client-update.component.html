@@ -1,0 +1,48 @@
+<mat-card > 
+    <mat-card-title >
+        <i class="material-icons ">
+            person_add_alt
+        </i>
+        Alterar Cliente
+    </mat-card-title>
+    <br>
+    <form>
+        <mat-form-field appearance="outline">
+            <mat-label>Escreva o nome do cliente </mat-label>
+            <input matInput placeholder="Nome"[(ngModel)]="client.name" name = "name">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Escreva a descrisao do cliente</mat-label>
+            <input matInput placeholder="Descrição" [(ngModel)]="client.description" name="description">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Escreva sua data de nascimento</mat-label>
+            <input matInput type="number" placeholder="Data de nascimento" [(ngModel)]="client.dateOld" name="dateOld">
+        </mat-form-field>
+       
+
+        <mat-form-field appearance="outline">
+            <mat-label>Escreva seu Genero</mat-label>
+            <input matInput type="text" placeholder="Genero" [(ngModel)]="client.gender" name="gender">
+            
+        </mat-form-field>
+        
+        
+    </form>
+    <button mat-raised-button (click) ="updateClient()" color= "primary">
+        <i class="material-icons">
+            save
+        </i>
+        <br>
+        Atualizar
+    </button>
+    
+    
+    <button mat-raised-button  (click) ="cancel()">
+        <i class="material-icons">
+            cancel
+        </i>
+        <br>
+        Cancelar
+    </button>
+</mat-card>

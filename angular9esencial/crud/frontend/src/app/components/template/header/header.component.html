@@ -1,0 +1,18 @@
+<mat-toolbar class="header mat-elevation-z4">
+    <!--mat-elevation-z4 : eleva o cabeçalho mat-elevation-z4-->
+    <!--logo do cabeçlçho-->
+    <span>
+        <a routerLink="/">
+            <img class="logo" src="assets/img/logo3.png" alt="logo">
+        </a>
+    </span>
+    <span class="title-group">
+        <a routerLink="{{routeUrl}}">
+          <i class="material-icons ">
+                {{icon}}
+          </i >
+          {{ title }} 
+        </a>
+    </span>
+
+</mat-toolbar>

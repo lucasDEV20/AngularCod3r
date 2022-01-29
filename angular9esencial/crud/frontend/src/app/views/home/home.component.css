@@ -1,0 +1,70 @@
+.home .title  {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+/*
+a diferença entre rem e px
+
+rem = pode ser responsivo ao tomanho que o usario 
+definir no tamanho da pagina
+
+px =(pixels) e um tamanho absoluto, mesmo que o usario
+mude o tamanho da fonte será absoluta
+
+am = se baseia no tamanho da fonte anterior
+*/
+.home .subtitle {
+    font-size: 1.1rem;
+    color: #fff;
+    
+
+}
+
+.mat-card{
+    background: rgba(#255, #255, #255, 0.1);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color:#e35e6b;
+    color:#fff;
+}
+
+.clients{
+    background-color: rgb(240, 46, 21);
+    color: #fff;
+}
+.products{
+    background-color: rgb(216, 61, 47);
+    color: #fff;
+}
+.wellcome{
+    background-color: rgb(175, 64, 64);
+    color: #fff;
+}
+
+
+
+/* mat-card-title{
+    border-radius:  35px;
+    color:#fff;
+    border-color: #000000;
+    background-color: #b33a3a;
+    width: 11rem;
+    height: 28px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+} */
+
+
+
+
